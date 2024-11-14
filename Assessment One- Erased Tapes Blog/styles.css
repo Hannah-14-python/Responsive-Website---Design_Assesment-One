@@ -12,7 +12,7 @@ body {
 
 .heading-section h1,
 .heading-section h2 {
-    text-align: center; /* Center the heading text */
+    text-align: center; 
 }
 
 header {
@@ -95,7 +95,7 @@ main {
 }
 
 .small-image img {
-    width: 77%; 
+    width: 100%; 
     height: auto; 
     margin: 0 auto; 
 }
