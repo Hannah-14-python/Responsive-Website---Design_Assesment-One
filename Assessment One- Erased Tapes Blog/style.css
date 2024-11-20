@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #e9e9e9;
+    color: #333;
+}
+
+.heading-section h1,
+.heading-section h2 {
+    text-align: center; 
+}
+
+header {
+    text-align: center; 
+    padding: 20px; 
+    background-color: #e9e9e9; 
+}
+
+.logo img {
+    width: 80px; 
+    height: auto; 
+}
+
+@media (min-width: 1024px) {
+    .logo img {
+        width: 200px;
+    }
+}
+
+.navbar {
+    margin-top: 10px;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px; 
+    background-color: white; 
+    margin-top: 10px; 
+}
+
+.heading-section {
+    margin-bottom: 20px;
+}
+
+.three-column-layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.image-layout {
+    display: flex;
+    align-items: flex-start; 
+}
+
+.featured-image {
+    margin-right: 0%;
+    flex: 1; 
+}
+
+.featured-image img {
+    width: 100%; 
+    height: auto; 
+}
+
+.small-images {
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; 
+    width: 28%; 
+}
+
+.small-image {
+    flex: 1; 
+}
+
+.small-image img {
+    width: 100%; 
+    height: auto; 
+    margin: 0 auto; 
+}
+
+.author-section {
+    margin-top: 20px;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+}
+
+.author-photo {
+    width: 200px; 
+    height: auto;
+    border-radius: 50%; 
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #14181d; 
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+h1, h2 {
+    font-family: 'Protest Guerrilla', sans-serif; 
+}
+
+h1 {
+    font-size: 3em; 
+}
+
+.intro {
+    font-size: 1.5em; 
+}
+
+@media (max-width: 540px) {
+    body {
+        padding: 12px;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 1024px) {
+    body {
+        padding: 20px; 
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        padding: 30px; 
+    }
+}
+
+@media (min-width: 1280px) {
+    body {
+        padding: 50px; 
+    }
+}
