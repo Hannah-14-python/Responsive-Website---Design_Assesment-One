@@ -1,0 +1,86 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #EEF36A; /* Light background color */
+}
+
+.header {
+    background-color: #231651; /* Dark background for the header */
+    color: #FFFFFF; /* White text color for the header */
+    padding: 16px 0; /* Padding for the header */
+}
+
+.header h1 {
+    font-family: 'Teko', sans-serif;
+    font-size: 4vw; /* Responsive font size based on viewport width */
+}
+
+.navbar {
+    display: flex; /* Use flexbox for the navigation */
+    justify-content: space-between; /* Space out items */
+    align-items: center; /* Center items vertically */
+    width: 100%; /* Full width for the navbar */
+}
+
+.nav-links {
+    display: flex; /* Use flexbox for the links */
+    justify-content: center; /* Center the genre links */
+    flex-grow: 1; /* Allow this section to grow */
+}
+
+.nav-item {
+    margin: 0 16px; /* Space between navigation items */
+    font-size: 1.2em; /* Smaller font size for genre links */
+    color: #FFFFFF; /* White text color for genre links */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-item:hover {
+    color: #4DCCBD; /* Change color on hover */
+}
+
+.btn-search {
+    padding: 12px 24px; /* Padding for the search button */
+    font-size: 1.5em; /* Larger font size for the search button */
+    background-color: #4DCCBD; /* Accent color for search button */
+    color: #231651; /* Dark text color for search button */
+    text-transform: uppercase; /* Uppercase text for search button */
+    border: none; /* Remove border */
+    border-radius: 8px; /* Rounded corners for search button */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.btn-search:hover {
+    background-color: #070410; /* Darker shade on hover */
+    color: #FFFFFF; /* Change text color to white on hover */
+}
+
+.content-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 48px 32px; /* Padding for the content container */
+}
+
+.movie-box {
+    background-color: #FFFFFF; /* White background for movie boxes */
+    border-radius: 8px; /* Rounded corners for movie boxes */
+    padding: 16px; /* Padding inside movie boxes */
+    margin-bottom: 24px; /* Space between movie boxes */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.movie-image {
+    width: 100%; /* Make the image take the full width of the box */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 8px 8px 0 0; /* Rounded corners for the top of the image */
+}
+
+.movie-box h2 {
+    font-size: 1.5em; /* Font size for movie titles */
+    margin-bottom: 8px; /* Space below movie title */
+}
+
+.movie-box p {
+    font-size: 1em; /* Font size for movie descriptions */
+    color: #555; /* Dark gray color for descriptions */
+}
