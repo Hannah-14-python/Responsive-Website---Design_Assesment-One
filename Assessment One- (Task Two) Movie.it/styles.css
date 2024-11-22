@@ -1,12 +1,12 @@
 body {
     font-family: 'Lato', sans-serif;
-    background-color: #EEF36A; /* Light background color */
+    background-color: #EEF36A; 
 }
 
 .header {
-    background-color: #231651; /* Dark background for the header */
-    color: #FFFFFF; /* White text color for the header */
-    padding: 16px 0; /* Padding for the header */
+    background-color: #231651; 
+    color: #FFFFFF; 
+    padding: 16px 0; 
 }
 
 .header h1 {
@@ -15,72 +15,72 @@ body {
 }
 
 .navbar {
-    display: flex; /* Use flexbox for the navigation */
-    justify-content: space-between; /* Space out items */
-    align-items: center; /* Center items vertically */
-    width: 100%; /* Full width for the navbar */
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
 }
 
 .nav-links {
-    display: flex; /* Use flexbox for the links */
-    justify-content: center; /* Center the genre links */
-    flex-grow: 1; /* Allow this section to grow */
+    display: flex; 
+    justify-content: center; 
+    flex-grow: 1; 
 }
 
 .nav-item {
-    margin: 0 16px; /* Space between navigation items */
-    font-size: 1.2em; /* Smaller font size for genre links */
-    color: #FFFFFF; /* White text color for genre links */
-    text-decoration: none; /* Remove underline from links */
-    transition: color 0.3s; /* Smooth transition for hover effect */
+    margin: 0 16px;
+    font-size: 1.2em; 
+    color: #FFFFFF; 
+    text-decoration: none; 
+    transition: color 0.3s; 
 }
 
 .nav-item:hover {
-    color: #4DCCBD; /* Change color on hover */
+    color: #4DCCBD;
 }
 
 .btn-search {
-    padding: 12px 24px; /* Padding for the search button */
-    font-size: 1.5em; /* Larger font size for the search button */
-    background-color: #4DCCBD; /* Accent color for search button */
-    color: #231651; /* Dark text color for search button */
-    text-transform: uppercase; /* Uppercase text for search button */
-    border: none; /* Remove border */
-    border-radius: 8px; /* Rounded corners for search button */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    padding: 12px 24px; 
+    font-size: 1.5em; 
+    background-color: #4DCCBD;
+    color: #231651;
+    text-transform: uppercase; 
+    border: none; 
+    border-radius: 8px;
+    transition: background-color 0.3s;
 }
 
 .btn-search:hover {
-    background-color: #070410; /* Darker shade on hover */
-    color: #FFFFFF; /* Change text color to white on hover */
+    background-color: #070410; 
+    color: #FFFFFF; 
 }
 
 .content-container {
     max-width: 900px;
     margin: auto;
-    padding: 48px 32px; /* Padding for the content container */
+    padding: 48px 32px;
 }
 
 .movie-box {
-    background-color: #FFFFFF; /* White background for movie boxes */
-    border-radius: 8px; /* Rounded corners for movie boxes */
-    padding: 16px; /* Padding inside movie boxes */
-    margin-bottom: 24px; /* Space between movie boxes */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: #FFFFFF;
+    border-radius: 8px; 
+    padding: 16px; 
+    margin-bottom: 24px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .movie-image {
-    width: 100%; /* Make the image take the full width of the box */
-    height: auto; /* Maintain the aspect ratio */
-    border-radius: 8px 8px 0 0; /* Rounded corners for the top of the image */
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
 }
 
 .movie-box h2 {
-    font-size: 1.5em; /* Font size for movie titles */
-    margin-bottom: 8px; /* Space below movie title */
+    font-size: 1.5em; 
+    margin-bottom: 8px; 
 }
 
 .movie-box p {
-    font-size: 1em; /* Font size for movie descriptions */
-    color: #555; /* Dark gray color for descriptions */
+    font-size: 1em; 
+    color: #555; 
 }
